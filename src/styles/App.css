@@ -1,0 +1,54 @@
+@import './Variables';
+
+.knockout {
+  font-family: "Knockout 34 A", "Knockout 34 B";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.knockoutCondensed {
+  font-family: "Knockout 28 A", "Knockout 28 B";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.logo {
+  @extend .knockoutCondensed;
+  line-height: 0.77;
+  margin-bottom: 0;
+}
+
+.nav {
+  & .navLink {
+    @extend .knockout;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.header {
+  @extend .knockout;
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.about {
+  max-width: 35em;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #fff;
+  color: var(--purple);
+}
