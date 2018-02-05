@@ -1,0 +1,11 @@
+{
+  "name": "alexsperellis.com",
+  "version": "1.0.0",
+  "description": "personal website for front end developer Alex Sperellis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Sperellis",
+  "license": "ISC"
+}
