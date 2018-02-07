@@ -1,3 +1,6 @@
 :root {
-  --purple: #6D0BD1;
+  --purple: #4E207E;
+  --chronicle: "Chronicle Display A", "Chronicle Display B";
+  --knockout: "Knockout 34 A", "Knockout 34 B";
+  --knockoutCondensed: "Knockout 28 A", "Knockout 28 B";
 }
