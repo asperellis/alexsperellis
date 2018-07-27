@@ -21,7 +21,7 @@
   }
 
   body {
-    background-color: var(--purple);
+    background-color: #f9f5fd;
   }
 
   h1 {
@@ -42,7 +42,6 @@
   }
 
   a {
-    text-decoration: none;
     color: var(--purple);
 
     &:hover,
