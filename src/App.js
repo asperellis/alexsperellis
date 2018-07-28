@@ -5,11 +5,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <h1 className={styles.logo}>
-        &nbsp;&nbsp;{'ALEX'}
-        <br />
-        {'SPER-'}
-        <br />
-        {'-ELLIS'}
+        A<br/>&mdash;<br/>S
       </h1>
     </header>
   );
@@ -46,7 +42,7 @@ function Bio() {
   return (
     <div className={styles.about}>
       <div>
-        <h2 className={styles.aboutHeader}>{'HI IM, ALEX'}</h2>
+        <h2 className={styles.aboutHeader}>{'HI I\'M ALEX.'}</h2>
         <p className={styles.aboutText}>
           I&apos;m currently a Front End Developer at{' '}
           <a href="http://www.simon.com">Simon Property Group</a> and previously
@@ -56,7 +52,7 @@ function Bio() {
           clients from musicians to{' '}
           <a href="http://kavehakbar.com">published poets</a>. I&apos;m from
           Indianapolis and currently travel the country with my partner working
-          remote while she takes travel nursing contracts.<br/>Don&apos;t hesitate
+          remote while she takes travel nursing contracts. Don&apos;t hesitate
           to <a href="mailto:asperellis@gmail.com">reach out</a>!
         </p>
         <a href="http://www.alexsperellis.com/resume.pdf" className={styles.aboutLink}>RESUME</a>

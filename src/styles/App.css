@@ -19,12 +19,12 @@
   grid-template-columns: 250px 250px 1fr;
   height: 100vh;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     grid-template: 1fr 1fr / 225px 1fr;
   }
 
-  @media (max-width: 900px) {
-    grid-template: 225px 1fr / 1fr 1fr;
+  @media (max-width: 1080px) {
+    grid-template: 225px 1fr / 225px 1fr;
   }
 
   @media (max-width: 500px) {
@@ -38,19 +38,20 @@
   justify-content: center;
   background-color: var(--purple);
   
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     grid-row: 1;
   }
 }
 
 .logo {
   @extend .knockoutCondensed;
-  line-height: 0.77;
+  line-height: 0.67;
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 4rem;
   margin-bottom: 0;
+  color: #fff;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1080px) {
     font-size: 3rem;
   }
 }
@@ -61,6 +62,15 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1080px) {
+    align-items: flex-start;
+    padding: 0 2rem;
+  }
+
+  @media (max-width: 500px) {
+    align-items: center;
+  }
 
   & .navLink {
     @extend .knockout;
@@ -80,6 +90,10 @@
     &:active,
     &:focus {
       transform: translateX(5px);
+
+      @media (max-width: 500px) {
+        transform: none;
+      }
     }
 
     &:last-of-type {
@@ -87,7 +101,7 @@
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1080px) {
     grid-column: 2;
   }
   
@@ -98,22 +112,23 @@
 }
 
 .about {
-  padding: 6rem 3rem;
-  background-color: #f9f5fd;
+  padding: 6rem 4rem;
+  background-color: var(--light-purple);
   color: var(--purple);
   display: flex;
   align-items: center;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     grid-row: 1 / span 2;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1080px) {
     grid-row: 2;
     grid-column: 1 / span 2;
   }
 
   @media (max-width: 500px) {
+    padding: 3rem 2rem;
     grid-column: 1;
   }
 }
@@ -124,6 +139,11 @@
   margin-bottom: 1.6rem;
   letter-spacing: 3px;
   line-height: 1;
+
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+  }
 }
 
 .aboutText {
@@ -131,8 +151,13 @@
   line-height: 1.75;
   max-width: 57rem;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.5;
   }
 }
 
@@ -143,5 +168,12 @@
   display: inline-block;
   letter-spacing: 3px;
   text-decoration: none;
-}
+  transition: transform .3s ease-out;
 
+  &:hover,
+  &:active,
+  &:focus {
+    transform: translateX(5px);
+    text-decoration: none;
+  }
+}
