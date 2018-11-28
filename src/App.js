@@ -47,12 +47,10 @@ function Bio() {
           I&apos;m currently a Front End Developer at{' '}
           <a href="http://www.simon.com">Simon Property Group</a> and previously
           worked as a graphic designer. I switched to development four years ago
-          and haven&apos;t looked back. I love to travel, run marathons and game
+          and haven&apos;t looked back. I love to travel, run marathons, play pinball and game
           on my PC. I also do freelance work on the side for a wide range of
           clients from musicians to{' '}
-          <a href="http://kavehakbar.com">published poets</a>. I&apos;m from
-          Indianapolis and currently travel the country with my partner working
-          remote while she takes travel nursing contracts. Don&apos;t hesitate
+          <a href="http://kavehakbar.com">published poets</a>. I&apos;m from Cleveland and currently living in Indianapolis. Don&apos;t hesitate
           to <a href="mailto:asperellis@gmail.com">reach out</a>!
         </p>
         <a href="http://www.alexsperellis.com/resume.pdf" className={styles.aboutLink}>RESUME</a>
