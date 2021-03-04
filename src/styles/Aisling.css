@@ -1,0 +1,101 @@
+/* A valentines gift for the gf */
+.aisling {
+  border-top: 6px solid #4a3137;
+  background-color: #f9b8cc;
+  width: 100vw;
+  min-height: 100vh;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Courier, monospace;
+  text-align: left;
+  line-height: 1.75;
+  flex-direction: column;
+  padding: 50px;
+  color: #4a3137;
+
+  h1 {
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .mistyBtn {
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
+    padding: 5px 20px;
+    top: 3px;
+    outline: none;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #4a3137;
+    }
+  }
+
+  .credits {
+    font-size: 10px;
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #4a3137;
+  }
+}
+
+@-webkit-keyframes heartUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) rotate(10deg);
+    transform: translate3d(0, 0, 0) rotate(10deg);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -35vh, 0) scale(1.2) rotate(-10deg);
+    transform: translate3d(0, -35vh, 0) scale(1.2) rotate(-10deg);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes heartUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0) rotate(10deg);
+    transform: translate3d(0, 0, 0) rotate(10deg);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -35vh, 0) scale(1.2) rotate(-10deg);
+    transform: translate3d(0, -35vh, 0) scale(1.2) rotate(-10deg);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

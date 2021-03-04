@@ -48,8 +48,9 @@ function Bio() {
       <div>
         <h2 className={styles.aboutHeader}>{"HI I'M ALEX."}</h2>
         <p className={styles.aboutText}>
-          I&apos;m currently a Front End Engineer at <a href="https://aws.amazon.com/quicksight/">Amazon Web Services - QuickSight</a>. Previously a graphic designer, I switched to development seven five years ago and haven&apos;t looked back. In my spare time I play saxophone, run
-          marathons, dabble in pinball and game on my PC. I also do freelance work on the side for a wide range of clients from musicians to <a href="http://kavehakbar.com">published poets</a>. I&apos;m from
+          I&apos;m currently a Front End Engineer at <a href="https://aws.amazon.com/quicksight/">Amazon Web Services - QuickSight</a>. Previously a graphic designer, I switched to development seven years ago
+           and haven&apos;t looked back. In my spare time I play saxophone, run  marathons, dabble in pinball and game on my PC.
+           I also do freelance work on the side for a wide range of clients from musicians to <a href="http://kavehakbar.com">published poets</a>. I&apos;m from
           Cleveland and currently living in Seattle. Don&apos;t hesitate to <a href="mailto:asperellis@gmail.com">reach out</a>!
         </p>
         <a
