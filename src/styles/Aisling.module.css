@@ -16,14 +16,14 @@
   padding: 50px;
   color: #4a3137;
 
-  h1 {
+  & h1 {
     margin-bottom: 12px;
     font-size: 40px;
     font-weight: 500;
     font-style: italic;
   }
 
-  .mistyBtn {
+  & .mistyBtn {
     background: none;
     padding: 0;
     margin: 0;
@@ -33,14 +33,14 @@
     top: 3px;
     outline: none;
 
-    svg {
+    & svg {
       width: 24px;
       height: 24px;
       fill: #4a3137;
     }
   }
 
-  .credits {
+  & .credits {
     font-size: 10px;
     padding-top: 40px;
     margin-top: 40px;

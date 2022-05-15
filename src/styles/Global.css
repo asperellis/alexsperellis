@@ -1,34 +1,49 @@
-@import './Variables';
+:root {
+  --purple: #240f3a;
+  --light-purple: #f9f5fd;
+  --chronicle: "Chronicle Display A", "Chronicle Display B";
+  --knockout: "Knockout 34 A", "Knockout 34 B";
+  --knockoutCondensed: "Knockout 28 A", "Knockout 28 B";
+}
 
-:global {
-  html {
-    box-sizing: border-box;
-    font-family: var(--chronicle);
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    line-height: 1;
-    font-size: 100%;
-  }
 
-  *,
-  *:before,
-  *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
+body {
+  font-family: 'Cardo', serif;
+}
 
-  body {
-    background-color: var(--light-purple);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
 
-  a {
-    color: var(--purple);
 
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
+html {
+  box-sizing: border-box;
+  font-family: var(--chronicle);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--light-purple);
+}
+
+a {
+  color: var(--purple);
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
   }
 }
